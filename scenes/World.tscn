@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0cpj778joyu5"]
+
+[ext_resource type="PackedScene" uid="uid://b1bcoqs8o3f2k" path="res://scenes/Level.tscn" id="1_g7a7q"]
+[ext_resource type="Script" path="res://scripts/NWorld.cs" id="1_r7yxn"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_r7yxn")
+_levelScene = ExtResource("1_g7a7q")
