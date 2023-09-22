@@ -29,7 +29,7 @@ public partial class NLevel : TileMap
 		ToGlobal(MapToLocal(tile)) + new Vector2(-12, -12);
 
 	public int GetDistance(Vector2I startTile, Vector2I endTile) =>
-		Math.Abs(endTile.X - startTile.X) + Math.Abs(endTile.Y + startTile.Y);
+		Math.Abs(endTile.X - startTile.X) + Math.Abs(endTile.Y - startTile.Y);
 }
 
 public class Tile
